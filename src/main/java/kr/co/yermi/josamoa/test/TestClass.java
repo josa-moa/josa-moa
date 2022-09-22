@@ -1,4 +1,4 @@
-package com.josamoa.library.test;
+package kr.co.yermi.josamoa.test;
 
 public class TestClass {
 	public static void main(String[] args) {
