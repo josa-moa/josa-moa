@@ -1,5 +1,12 @@
 package kr.co.yermi.josamoa;
 
+import kr.co.yermi.josamoa.service.JosamoaService;
+import kr.co.yermi.josamoa.service.JosamoaServiceImpl;
+
 public class Josamoa {
-	/* 여기서 메서드 작업할 예정 */
+	private JosamoaService josamoaService = new JosamoaServiceImpl();
+	
+	public String setS(String str, String particle) {
+		return josamoaService.setS(str, particle);
+	}
 }
