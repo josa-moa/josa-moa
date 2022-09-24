@@ -19,8 +19,16 @@
 		</repository>
 	</repositories>
 
-	<!-- JitPack 모듈 추가 -->
 	<dependencies>
+		<!-- JUnit 추가 -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.13.2</version>
+		    <scope>test</scope>
+		</dependency>
+			
+		<!-- JitPack 모듈 추가 -->
 		<dependency>
 			<groupId>com.github.jitpack</groupId>
 			<artifactId>maven-simple</artifactId>
