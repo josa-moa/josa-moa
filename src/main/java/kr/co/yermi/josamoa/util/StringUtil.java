@@ -30,7 +30,13 @@ public class StringUtil {
 		return result;
 	}
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
+		/*
+		 * 해당 부분은 개념 이해를 위해 남겨두었습니다.
+		 * 조사 분류 방식에 대한 로직 개념을 정리해보시면 좋겠습니다.
+		 * 해당 클래스의 main은 삭제할 예정입니다.
+		 * */
+		
 		// 14 + 된소리 5  >> 19
 		System.out.println('힣' - '가' + 1);
 		System.out.println((int)'가');
