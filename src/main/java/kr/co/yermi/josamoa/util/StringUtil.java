@@ -24,7 +24,7 @@ public class StringUtil {
 		case "AD": // 부사격 조사 체크
 			for(String s : Constant.ADVERB) { if(particle.equals(s)) { result = true; } } break;
 			
-		default: // 관형격 조사 체크
+		case "G": // 관형격 조사 체크
 			for(String s : Constant.GENETIVE) { if(particle.equals(s)) { result = true; } } break;
 		}
 		return result;
