@@ -10,5 +10,10 @@ public class TestBuilderPattern {
         
         System.out.println(comp);
         System.out.println(comp.getHDD() + ", " + comp.getRAM() + ", " + comp.isGraphicsCardEnabled() + ", " + comp.isBluetoothEnabled());
+        
+        System.out.println("----------------------------------------------------");
+        
+        Josamoa josamoa = new Josamoa.JosamoaBuilder("철수", "좋아한다").setO("영희").build();
+        System.out.println(josamoa);
     }
 }
