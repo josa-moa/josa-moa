@@ -10,4 +10,9 @@ public class josamoaTests {
 		System.out.println("Hello World!");
 	}
 	
+	@Test
+	public void testSetJosamoa() {
+		System.out.println(josamoa.setJosa("철", "은는"));
+	}
+	
 }
