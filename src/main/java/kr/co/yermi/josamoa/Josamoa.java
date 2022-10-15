@@ -10,21 +10,22 @@ public class Josamoa {
 			return str;
 		}
 		
+		// 특수문자 체크 및 제거. @ # % & * 받침없음으로 처리
+		String changeStr = JosamoaUtil.removeSpecial(str);
+		
 		// 받침 유무 확인
-		boolean flag = true;
-		int last = JosamoaUtil.checkedLastLetter(str);
+		boolean flag = false;
+		int last = JosamoaUtil.checkedLastLetter(changeStr);
 		
 		switch (last) {
 		// 마지막 글자가 한글인 경우
-		case 0: flag = JosamoaUtil.checkedKorean(str); break;
+		case 0: flag = JosamoaUtil.checkedKorean(changeStr); break;
 
 		// 마지막 글자가 숫자일 경우
-		case 1: flag = JosamoaUtil.checkedNumber(str); break;
+		case 1: flag = JosamoaUtil.checkedNumber(changeStr); break;
 		
 		// 마지막 글자가 영어일 경우
-		case 2: flag = JosamoaUtil.checkedAlpabet(str.toLowerCase()); break;
-		
-		default: break;
+		case 2: flag = JosamoaUtil.checkedAlpabet(changeStr.toLowerCase()); break;
 		}
 		
 		return JosamoaUtil.result(str, particle, flag);

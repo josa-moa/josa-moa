@@ -41,6 +41,17 @@ public class josamoaTests {
 		System.out.println("-----------------------------------");
 		System.out.println(josamoa.setJosa("ponG", "은는"));
 		System.out.println(josamoa.setJosa("leg", "은는"));
+		
+		System.out.println("-----------------------------------");
+		System.out.println(josamoa.setJosa("ponG!", "은는"));
+		System.out.println(josamoa.setJosa("podG!", "은는"));
+		System.out.println(josamoa.setJosa("leg$", "은는"));
+		System.out.println(josamoa.setJosa("김김@@", "은는"));
+		
+		System.out.println("-----------------------------------");
+		System.out.println(josamoa.setJosa("cdfdfd\'", "은는"));
+		System.out.println(josamoa.setJosa("cdfdic\'", "은는"));
+		System.out.println(josamoa.setJosa("cdbang!!!!", "은는"));
 	}
 	
 }

@@ -86,4 +86,20 @@ public class JosamoaUtil {
 		}
 		return false;
 	}
+	
+	public static String removeSpecial(String str) {
+		String special = "!?,\\.~\'\";:{}[]()<>";
+		String result = str;
+		
+		boolean flag = true;
+		
+		while(flag) {
+			if(special.contains(result.substring(result.length()-1))) {
+				result = result.substring(0, result.length()-1);
+			} else {
+				flag = false;
+			}
+		}
+		return result;
+	}
 }
