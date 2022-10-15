@@ -10,8 +10,4 @@ public class josamoaTests {
 		System.out.println("Hello World!");
 	}
 	
-	@Test
-	public void testSetS() {
-		System.out.println(josamoa.setS("예찬", "이가"));
-	}
 }
