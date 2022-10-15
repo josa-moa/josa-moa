@@ -22,7 +22,7 @@ public class Josamoa {
 		case 1: flag = JosamoaUtil.checkedNumber(str); break;
 		
 		// 마지막 글자가 영어일 경우
-		case 2: flag = JosamoaUtil.checkedAlpabet(str); break;
+		case 2: flag = JosamoaUtil.checkedAlpabet(str.toLowerCase()); break;
 		
 		default: break;
 		}
