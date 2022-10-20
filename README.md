@@ -1,4 +1,4 @@
-# josa-moa 한국어 조사 처리 프로젝트 [자바(Java)]
+# 조사모아(josa-moa) 한국어 조사 처리 프로젝트 [자바(Java)]
 ```html
 <!-- repository 추가 -->
 <repositories>
@@ -15,8 +15,8 @@
   <version>1.0.2</version>
 </dependency>
 ```
-# josa-moa 사용방법
-> ### 조사모아(josa-moa)는 문자열의 종성의 받침에 따라 조사를 붙여주는 *__한국어 조사 처리 라이브러리__* 입니다.
+# 조사모아(josa-moa) 사용방법
+> ### 문자열의 종성의 받침에 따라 조사를 붙여주는 *__한국어 조사 처리 라이브러리__*
 > ###### * setJosamoa는 받침이 있는 경우 앞 글자를, 받침이 없는 경우 뒷 글자를 반환합니다.
 <br>
 
@@ -75,12 +75,12 @@ josamoa.setJosa("인★", "은는");  // 인★는
 ```
 <br>
 
-# josa-moa 패치노트
+# 조사모아(josa-moa) 패치노트
 ## 1.0.2
 메서드 setJosa 생성 - 한글, 영문자, 특수문자 조사 처리 완료
 ## 1.0.1
 설정 추가 - JUnit4 추가
 <br><br>
 
-# josa-moa logo
+# 조사모아 로고(josa-moa logo)
 <img src=https://user-images.githubusercontent.com/113405581/191260453-19912840-bee8-4e9c-a948-6a7723d2bd43.jpg width="300"> <img src=https://user-images.githubusercontent.com/113405581/191261422-63219ccd-fa14-4ee5-825a-3dc0e286a625.jpg width="300">
