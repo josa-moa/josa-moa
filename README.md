@@ -73,7 +73,6 @@ josamoa.setJosa("모양?", "은는");  // 모양?은 > 모양은
 josamoa.setJosa("이@@", "은는");  // 이@@는
 josamoa.setJosa("인★", "은는");  // 인★는
 ```
-<br>
 
 # 조사모아(josa-moa) 패치노트
 ## 1.0.2
