@@ -42,8 +42,8 @@ josamoa.setJosa("사람4", "은는"); // 사람4는 > 사람사는
 ### - 영문자 조사 처리
 ```java
 // 글자 길이가 3 미만일 경우 한 글자씩 읽는다.
-josamoa.setJosa("L", "은는");  // 엘은
-josamoa.setJosa("ai", "은는"); // 에이아이는
+josamoa.setJosa("L", "은는");  // L은 > 엘은
+josamoa.setJosa("ai", "은는"); // ai는 > 에이아이는
 
 // b와 c는 앞문자가 모음일 경우 받침을 갖는다.
 josamoa.setJosa("lib", "은는");   // lib은 > 립은
