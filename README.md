@@ -1,4 +1,4 @@
-# 조사모아(josa-moa) 한국어 조사 처리 프로젝트 [자바(Java)]
+# 조사모아(josa-moa) 한국어 조사 처리 프로젝트
 ```html
 <!-- repository 추가 -->
 <repositories>
@@ -15,7 +15,7 @@
   <version>1.0.2</version>
 </dependency>
 ```
-# 조사모아(josa-moa) 사용방법
+# 조사모아(josa-moa)란?
 > ### 문자열의 종성의 받침에 따라 조사를 붙여주는 *__한국어 조사 처리 라이브러리__*
 > ###### * setJosamoa는 받침이 있는 경우 앞 글자를, 받침이 없는 경우 뒷 글자를 반환합니다.
 <br>
