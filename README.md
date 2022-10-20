@@ -16,7 +16,7 @@
 </dependency>
 ```
 # 조사모아(josa-moa)란?
-> ### 문자열의 종성의 받침에 따라 조사를 붙여주는 *__한국어 조사 처리 라이브러리__*
+> ### 문자열 종성의 받침에 따라 조사를 붙여주는 *__한국어 조사 처리 라이브러리__*
 > ###### * setJosamoa는 받침이 있는 경우 앞 글자를, 받침이 없는 경우 뒷 글자를 반환합니다.
 <br>
 
@@ -41,7 +41,7 @@ josamoa.setJosa("사람4", "은는"); // 사람4는 > 사람사는
 ```
 ### - 영문자 조사 처리
 ```java
-// 글자 길이가 3 미만일 경우 한 글자씩 읽는다.
+// 3글자 미만일 경우 한 글자씩 읽는다.
 josamoa.setJosa("L", "은는");  // L은 > 엘은
 josamoa.setJosa("ai", "은는"); // ai는 > 에이아이는
 
@@ -59,9 +59,11 @@ josamoa.setJosa("juice", "은는"); // help는 > 헬프는
 
 // k는 앞문자가 'c'인 경우 받침을 갖는다.
 josamoa.setJosa("kick", "은는");  // kick은 > 킥은
+josamoa.setJosa("shock", "은는"); // shock는 > 쇼크는
 
 // g는 앞문자가 'n'인 경우 받침을 갖는다.
 josamoa.setJosa("long", "은는");  // long은 > 롱은
+josamoa.setJosa("log", "은는");   // log는 > 로그는
 ```
 ### - 특수문자 조사 처리
 ```java
