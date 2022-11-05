@@ -12,7 +12,7 @@
 <dependency>
   <groupId>com.github.josa-moa</groupId>
   <artifactId>josa-moa</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 </dependency>
 ```
 # 조사모아(josa-moa)란?
@@ -78,6 +78,8 @@ josamoa.setJosa("인★", "은는");  // 인★는
 <br>
 
 # 조사모아(josa-moa) 패치노트
+## 1.0.3
+메서드 주석 추가
 ## 1.0.2
 메서드 setJosa 생성 - 한글, 영문자, 특수문자 조사 처리 완료
 ## 1.0.1
